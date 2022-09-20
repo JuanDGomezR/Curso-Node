@@ -1,5 +1,4 @@
 const express = require('express');
-// const faker = require('faker');
 
 const router = express.Router();
 
@@ -10,5 +9,6 @@ router.get('/categories/:categoryId/products/:productId', (req, res) =>{
     productId,
   });
 });
+
 
 module.exports = router;
